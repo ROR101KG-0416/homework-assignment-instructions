@@ -7,6 +7,7 @@
 # Try copying and pasting this into a ruby file and modifying it to help you figure it out. 
 # Try adding "puts" lines in at different places to see what happens.
 
+
 # ```ruby
 # defining a method (with 3 parameters): first name, last name, and title using string interpolation
 def full_name(first_name, last_name, title)

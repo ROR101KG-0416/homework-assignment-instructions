@@ -8,9 +8,9 @@
 
 ### Background
 
-A client with dreams of building the next [Yelp](http://yelp.com/) has hired you to build out their platform. The client has broken out the project into a series of tasks. Each homework assignment will involve completing a specific task.
+A client with dreams of building the next [Yelp](http://yelp.com/) has hired you to build out their platform. The client has broken out the project into a series of milestones. Each homework assignment will involve completing a specific milestone.
 
-#### Task #1
+#### Milestone #1
 
 A User should be able to view a list of Restaurants
 

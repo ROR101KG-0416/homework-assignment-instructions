@@ -65,7 +65,7 @@ Add associations, validations, error handling, notifications & partials
 - Add Associations
   - Your client wants to be able to associate a restaurant location with a neighborhood (e.g. Flatiron, Brooklyn Heights, etc). **Add a Neighborhood resource (fields: name [string]) to your Restaurant app** and establish a **has_many** relationship between restaurants and neighborhoods (don't worry about the fact that some restaurants may have multiple locations in different neighborhoods)
   - Your client wants to be able to categorize restaurants (i.e. "Mexican", "Italian" "Club", "Sports Bar", etc). **Add a Category resource (fields: name [string]) to your Restauant app** and establish a **many-to-many** relationship between restaurants and categories
-  - Allow users to create, read, update or delete (ALL CRUD actions Neighborhoods from the user interface (via controllers & views **and NOT the rails console**)*
+  - Allow users to create, read, update or delete (ALL CRUD actions) Neighborhoods from the user interface (via controllers & views **and NOT the rails console**)*
   - Allow users to create, read, update or delete (All CRUD actions) Categories from the user interface (via controllers & views and **NOT the rails console**)*
   - Update your Restaurants form view to include the following:
     - Add a dropdown select input that allows the user to associate a restaurant with one neighborhood

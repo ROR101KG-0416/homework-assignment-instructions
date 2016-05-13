@@ -60,7 +60,7 @@ Requirements:
 
 #### Milestone #3
 
-Add associations, validations, error handling, partials & notifications
+Add associations, validations, error handling, notifications & partials
 
 - Add Associations
   - Your client wants to be able to associate a restaurant location with a neighborhood (e.g. Flatiron, Brooklyn Heights, etc). **Add a Neighborhood resource (fields: name [string]) to your Restaurant app** and establish a **has_many** relationship between restaurants and neighborhoods (don't worry about the fact that some restaurants may have multiple locations in different neighborhoods)
@@ -74,21 +74,20 @@ Add associations, validations, error handling, partials & notifications
 
 - Add Validations
   - Implement the following validation rules:
-   - Restaurants must have a name present and that name must be unique
-   - Categories must have a name present and that name must be unique
-   - Reviews must have a title present 
-   - Reviews must have the body present and the content in the body must be at least 10 characters lon
+    - Restaurants must have a name present and that name must be unique
+    - Restaurants must have a postal_code present
+    - Categories must have a name present and that name must be unique
 
 
 - Add Error Handling and Notifications
   - When a user attempts to create or update (from a view NOT the console) a restaurant, neighborhood or category the following should happen:
-   - If an error occurs (due to a validation error) then display an error to the user informing them of the error
-    - A list of the specific errors that occurred on the form
-   - If the action was a success, display a success notification to users when they either successfully create or update an article
+    - If an error occurs (due to a validation error) then display an error to the user informing them of the error
+      - A list of the specific errors that occurred on the form
+      - If the result of the action was a success, display a success notification to users
   - If an error occurs when creating a new resource, the user should **NOT** have to refill data that was already entered
 
 
 - Add Partials
- - Use a partial to reduce the duplication between the new and edit views for all of your resources (restaurants, neighborhoods and categories
+  - Use a partial to reduce the duplication between the new and edit views for all of your resources (restaurants, neighborhoods and categories
 
 *This involves implementing all 7 built-in Rails controller actions that enables users to conduct all CRUD actions using the web interface

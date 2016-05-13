@@ -65,11 +65,11 @@ Add associations, validations, error handling, partials & notifications
 - Add Associations
   - Your client wants to be able to associate a restaurant location with a neighborhood (e.g. Flatiron, Brooklyn Heights, etc). **Add a Neighborhood resource (fields: name [string]) to your Restaurant app** and establish a **has_many** relationship between restaurants and neighborhoods (don't worry about the fact that some restaurants may have multiple locations in different neighborhoods)
   - Your client wants to be able to categorize restaurants (i.e. "Mexican", "Italian" "Club", "Sports Bar", etc). **Add a Category resource (fields: name [string]) to your Restauant app** and establish a **many-to-many** relationship between restaurants and categories
-  - Allow users to Create, Read, Update or Delete (ALL CRUD actions) neighborhood from the user interface (via controllers & views and NOT the rails console)
-  - Allow users to Create, Read, Update or Delete (All CRUD actions) categories from the user interface (via controllers & views and NOT the rails console)
+  - Allow users to create, read, update or delete (ALL CRUD actions Neighborhoods from the user interface (via controllers & views **and NOT the rails console**)*
+  - Allow users to create, read, update or delete (All CRUD actions) Categories from the user interface (via controllers & views and **NOT the rails console**)*
   - Update your Restaurants form view to include the following:
-   - Add a dropdown select input that allows the user to associate a restaurant with one neighborhood
-   - Add checkboxes that allows a user to associate a restaurant with one or more categories
+    - Add a dropdown select input that allows the user to associate a restaurant with one neighborhood
+    - Add checkboxes that allows a user to associate a restaurant with one or more categories
 
 
 - Add Validations
@@ -89,4 +89,6 @@ Add associations, validations, error handling, partials & notifications
 
 
 - Add Partials
- - Use a partial to reduce the duplication between the new and edit views for all of your resources (restaurants, neighborhoods and categories)
+ - Use a partial to reduce the duplication between the new and edit views for all of your resources (restaurants, neighborhoods and categories
+
+*This involves implementing all 7 built-in Rails controller actions that enables users to conduct all CRUD actions using the web interface

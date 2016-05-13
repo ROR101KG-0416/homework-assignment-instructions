@@ -82,8 +82,8 @@ Add associations, validations, error handling, notifications & partials
 - Add Error Handling and Notifications
   - When a user attempts to create or update (from a view NOT the console) a restaurant, neighborhood or category the following should happen:
     - If an error occurs (due to a validation error) then display an error to the user informing them of the error
-      - A list of the specific errors that occurred on the form
-      - If the result of the action was a success, display a success notification to users
+      - and list of the specific errors that occurred on the form
+    - If the result of the action was a success, display a success notification to users
   - If an error occurs when creating a new resource, the user should **NOT** have to refill data that was already entered
 
 

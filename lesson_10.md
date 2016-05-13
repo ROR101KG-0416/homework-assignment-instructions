@@ -2,7 +2,7 @@
 
 ### Fork this [Repo](https://github.com/ROR101KG-0416/lesson-10-homework)
 
-**PLEASE NOTE:** This assignment requires that you re-create the application from scratch and include the features requested from both Milestones #1 & #2. These *Developer repetitions* are meant increase your familiarity with rails and its conventions.
+**PLEASE NOTE:** This assignment requires that you **re-create the application from scratch** and include the features requested from both Milestones #1, #2 & #3. These *Developer repetitions* are meant increase your familiarity with rails and its conventions.
 
 ### Goal
 

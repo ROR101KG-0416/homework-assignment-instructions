@@ -12,3 +12,5 @@ Listing of all of the Homework Assignment Instructions for NYCDA's Ruby on Rails
 [Lesson 8](https://github.com/ROR101KG-0416/homework-assignment-instructions/blob/master/lesson_08.md): Due 5/13/2016  - [Repo](https://github.com/ROR101KG-0416/lesson-08-homework)
 
 [Lesson 10](https://github.com/ROR101KG-0416/homework-assignment-instructions/blob/master/lesson_10.md): Due 5/20/2016  - [Repo](https://github.com/ROR101KG-0416/lesson-10-homework)
+
+[Lesson 12](https://github.com/ROR101KG-0416/homework-assignment-instructions/blob/master/lesson_12.md): Due 5/27/2016  - [Repo](https://github.com/ROR101KG-0416/lesson-12-homework)
